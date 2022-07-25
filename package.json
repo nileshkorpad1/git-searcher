@@ -1,7 +1,6 @@
 {
   "name": "git-searcher",
   "author": "Nilesh Korpad",
-  "homepage": "https://github.com/git-searcher",
   "version": "0.1.0",
   "private": true,
   "scripts": {
