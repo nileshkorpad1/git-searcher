@@ -1,5 +1,7 @@
 @import '../../variables.scss';
 
+
+
 .container {
     width: 100%;
     max-width: 980px;
@@ -204,5 +206,35 @@
     .user-description {
         max-height: #{$line-height * 2.3};
         overflow: hidden;
+    }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+
+    .repo-list-item,
+    .user-list-item {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+
+    .repo-list-item,
+    .user-list-item {
+        width: 60%;
+    }
+
+    .search-form {
+        display: block;
+        margin: 0 auto;
+
+        &__field {
+            margin: 20px;
+        }
+
+        .dropdown {
+            margin: 0 auto;
+            max-width: 300px;
+        }
     }
 }
