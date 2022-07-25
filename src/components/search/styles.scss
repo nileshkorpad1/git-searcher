@@ -1,0 +1,19 @@
+@import '../../variables.scss';
+
+.search {
+
+    &-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__field {
+            margin-top: 20px;
+            min-width: 300px;
+            input {
+                padding: 10px;
+                width: 100%;
+            }
+        }
+    }
+}

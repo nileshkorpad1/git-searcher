@@ -1,0 +1,68 @@
+{
+  "name": "git-searcher",
+  "author": "Nilesh Korpad",
+  "homepage": "https://github.com/git-searcher",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "date-fns": "^2.16.1",
+    "lodash": "^4.17.20",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/react-hooks": "^4.0.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/axios-mock-adapter": "^1.10.0",
+    "@types/classnames": "^2.2.11",
+    "@types/date-fns": "^2.6.0",
+    "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.167",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.15",
+    "@types/redux-mock-store": "^1.0.2",
+    "@types/testing-library__react-hooks": "^3.4.1",
+    "axios-mock-adapter": "^1.19.0",
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.14.1",
+    "react-scripts": "^4.0.1",
+    "react-test-renderer": "^17.0.1",
+    "redux-mock-store": "^1.5.4",
+    "typescript": "^4.1.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

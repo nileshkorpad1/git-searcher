@@ -1,0 +1,35 @@
+@import '../../variables.scss';
+
+.footer {
+    width: 80%;
+    height: 124px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: -180px;
+    left: 0;
+    right: 0;
+
+    padding-right: 16px;
+    padding-left: 16px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-top: 1px solid $light-grey;
+}
+
+.footer-logo {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    vertical-align: middle;
+    fill: $grey;
+
+    &:hover {
+        fill: darken($light-grey, 60%);
+    }
+}
